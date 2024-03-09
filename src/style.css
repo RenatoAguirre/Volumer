@@ -1,0 +1,28 @@
+h1 {
+  color: #FAEF5D;
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow:
+    1px 1px 1px #7E2553,
+    2px 2px 1px #FF004D;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1D2B53;
+  margin: 0;
+  padding: 0;
+}
+
+.sliderContainer {
+  width: 100%;
+  justify-content: center;
+  margin-left: 5rem;
+  color: beige;
+}
+
+.text {
+  color: #FAEF5D;
+  font-size: 12px;
+}

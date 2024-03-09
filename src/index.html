@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Volume Control</h1>
   <div class="sliderContainer">
-    <input type="range" min="0" max="200" value="100">
+    <input type="range" min="0" max="200" value="100" id="slider" step="5">
+    <p class="text">Volume: <output id="value" class="text"></output> %</p>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
