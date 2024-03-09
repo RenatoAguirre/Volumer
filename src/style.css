@@ -1,11 +1,12 @@
 h1 {
   color: #FAEF5D;
-  font-size: 5rem;
+  font-size: 1rem;
   text-transform: capitalize;
   text-shadow:
     1px 1px 1px #7E2553,
     2px 2px 1px #FF004D;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 body {
@@ -13,16 +14,35 @@ body {
   background-color: #1D2B53;
   margin: 0;
   padding: 0;
+  height: 250px;
+  width: 350px;
 }
 
 .sliderContainer {
   width: 100%;
+  scale: 1;
   justify-content: center;
-  margin-left: 5rem;
+  align-items: center;
   color: beige;
+}
+
+#slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .text {
   color: #FAEF5D;
   font-size: 12px;
+  text-align: center;
+}
+
+.container {
+  height: 200px;
+  width: 300;
 }
