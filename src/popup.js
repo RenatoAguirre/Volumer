@@ -11,7 +11,7 @@
   });
 
   showAllAudibleTabs(await getAllAudibleTabs());
-  console.log(await getAllTabs());
+  chrome.runtime.sendMessage( { name: "hello" })
 })()
 
 async function getAllTabs () {
@@ -37,7 +37,7 @@ async function showAllAudibleTabs() {
     for (const tab of tabs) {
       let li = document.createElement('li');
       li.innerText = tab.title;
-      let img = document.createElement('img')
+      let img = document.createElement('img');
       img.id = "favicon";
       img.src = tab.favIconUrl;
       list.appendChild(li);
