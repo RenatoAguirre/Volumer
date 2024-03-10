@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Volumer!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
   <div class="container">
     <h1>Volume Control</h1>
     <div class="sliderContainer">
-      <input type="range" min="0" max="200" value="100" id="slider" step="5">
-      <p class="text">Volume: <output id="value" class="text"></output> %</p>
+      <input type="range" id="slider" min="0" max="200" value="100" step="5">
+      <p class="textBold">Volume: <output id="volumePercent" class="textBold"></output> %</p>
     </div>
+    <ul id="audibleTabs"></ul>
   </div>
-  <script src="index.js"></script>
+  <script src="popup.js"></script>
 </body>
 </html>

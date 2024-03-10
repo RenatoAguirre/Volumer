@@ -5,6 +5,14 @@
   "description": "Volume control for Chrome",
   "action": {
     "default_icon": "./assets/icon.png",
-    "default_popup": "./src/index.html"
+    "default_popup": "./src/popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "tabCapture"
+  ],
+  "background": {
+    "service_worker": "./src/service_worker.js"
   }
 }

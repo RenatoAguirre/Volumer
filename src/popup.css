@@ -36,13 +36,36 @@ body {
   position: relative;
 }
 
-.text {
+.textBold {
   color: #FAEF5D;
   font-size: 12px;
   text-align: center;
+  font-weight: bold;
+}
+
+li {
+  color: rgb(190, 190, 190);
+  font-size: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#audibleTabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .container {
   height: 200px;
   width: 300;
+}
+
+#favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
